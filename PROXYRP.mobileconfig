@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadDisplayName</key>
+    <string>PROXYRP VPN</string>
+    <key>PayloadDescription</key>
+    <string>การตั้งค่า PROXYRP VPN สำหรับเกม Free Fire TH (proxy-vpn-h1qa.render.com:5000)</string>
+    <key>PayloadIdentifier</key>
+    <string>com.proxyrp.vpn.config</string>
+    <key>PayloadOrganization</key>
+    <string>PROXYRP VPN</string>
+    <key>PayloadUUID</key>
+    <string>7B9A1C2D-3E4F-5A6B-7C8D-9E0F1A2B3C4D</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.proxy.global.managed</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadIdentifier</key>
+            <string>com.proxyrp.vpn.proxy.payload</string>
+            <key>PayloadUUID</key>
+            <string>1A2B3C4D-5E6F-7A8B-9C0D-1E2F3A4B5C6D</string>
+            <key>PayloadDisplayName</key>
+            <string>PROXYRP VPN Proxy Settings</string>
+            <key>ProxyType</key>
+            <string>Manual</string>
+            <key>ProxyServer</key>
+            <string>proxy-vpn-h1qa.render.com</string>
+            <key>ProxyServerPort</key>
+            <integer>5000</integer>
+            <key>ProxyUsernameRequired</key>
+            <false/>
+        </dict>
+    </array>
+</dict>
+</plist>
